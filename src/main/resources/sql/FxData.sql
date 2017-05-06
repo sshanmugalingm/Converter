@@ -1,4 +1,4 @@
-
+--Currency Data
 
 insert into Currency values (1,  'AUD', 'Australian Dollar', 2, 'Australia');
 insert into Currency values (2,  'CAD', 'Canadian Dollar', 2, 'Canada');
@@ -12,6 +12,8 @@ insert into Currency values (9,  'NOK', 'Norwegian Krone', 2, 'Norway');
 insert into Currency values (10, 'NZD', 'New Zealand Dollar', 2, 'New Zealand');
 insert into Currency values (11, 'USD', 'US Dollar', 2, 'USA');
 
+--Exchange Rate Data
+
 insert into ExchangeRate (id, baseCurrency_id, termCurrency_id, rate) values (1, 1, 11, 0.8371);
 insert into ExchangeRate (id, baseCurrency_id, termCurrency_id, rate) values (2, 2, 11, 0.8711);
 insert into ExchangeRate (id, baseCurrency_id, termCurrency_id, rate) values (3, 11, 3, 6.1715);
@@ -23,10 +25,15 @@ insert into ExchangeRate (id, baseCurrency_id, termCurrency_id, rate) values (8,
 insert into ExchangeRate (id, baseCurrency_id, termCurrency_id, rate) values (9, 6, 5, 7.4405);
 insert into ExchangeRate (id, baseCurrency_id, termCurrency_id, rate) values (10, 6, 9, 8.6651);
 
+--Conversion Chart Data
 
-
-insert into ConversionMatrix (id , conversionType, baseCurrency_id, termCurrency_id, referenceCurrency_id) values (1, 'CROSS', 8, 9, 11);
-insert into ConversionMatrix (id , conversionType, baseCurrency_id, termCurrency_id, referenceCurrency_id) values (2, 'INVERT', 8, 11, null);
-insert into ConversionMatrix (id , conversionType, baseCurrency_id, termCurrency_id, referenceCurrency_id) values (3, 'CROSS', 11, 9, 6);
-insert into ConversionMatrix (id , conversionType, baseCurrency_id, termCurrency_id, referenceCurrency_id) values (4, 'INVERT', 11, 6, null);
-insert into ConversionMatrix (id , conversionType, baseCurrency_id, termCurrency_id, referenceCurrency_id) values (5, 'DIRECT', 11, 6, null);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (1, 'CROSSCURRENCY', 8, 9, 11);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (2, 'INVERSE', 8, 11, null);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (3, 'CROSSCURRENCY', 11, 9, 6);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (4, 'INVERSE', 11, 6, null);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (5, 'DIRECT', 6, 9, null);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (6, 'DIRECT', 1, 11, null);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (7, 'CROSSCURRENCY', 1, 8, 11);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (8, 'DIRECT', 11, 8, null);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (9, 'CROSSCURRENCY', 8, 1, 11);
+insert into ConversionChart (id , conversionType, sourceCurrency_id, destinationCurrency_id, referenceCurrency_id) values (10, 'INVERSE', 11, 1, null);

@@ -10,19 +10,19 @@ import javax.persistence.*;
  * Created by senthurshanmugalingm on 4/05/2017.
  */
 @Entity
-public class ConversionMatrix {
+public class ConversionChart {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @OneToOne(cascade = CascadeType.MERGE)
-    @JoinColumn(name = "baseCurrency_id", referencedColumnName = "id", nullable = false)
-    private Currency baseCurrency;
+    @JoinColumn(name = "sourceCurrency_id", referencedColumnName = "id", nullable = false)
+    private Currency sourceCurrency;
 
     @OneToOne(cascade = CascadeType.MERGE)
-    @JoinColumn(name = "termCurrency_id", referencedColumnName = "id", nullable = false)
-    private Currency termCurrency;
+    @JoinColumn(name = "destinationCurrency_id", referencedColumnName = "id", nullable = false)
+    private Currency destinationCurrency;
 
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
@@ -32,48 +32,32 @@ public class ConversionMatrix {
     @JoinColumn(name = "referenceCurrency_id", referencedColumnName = "id")
     private Currency referenceCurrency;
 
-    public ConversionMatrix() {
+    public ConversionChart() {
     }
 
-    public Currency getBaseCurrency() {
-        return baseCurrency;
+    public Currency getSourceCurrency() {
+        return sourceCurrency;
     }
 
-    public void setBaseCurrency(Currency baseCurrency) {
-        this.baseCurrency = baseCurrency;
-    }
-
-    public Currency getTermCurrency() {
-        return termCurrency;
-    }
-
-    public void setTermCurrency(Currency termCurrency) {
-        this.termCurrency = termCurrency;
+    public Currency getDestinationCurrency() {
+        return destinationCurrency;
     }
 
     public Currency getReferenceCurrency() {
         return referenceCurrency;
     }
 
-    public void setReferenceCurrency(Currency referenceCurrency) {
-        this.referenceCurrency = referenceCurrency;
-    }
-
     public ConversionType getConversionType() {
         return conversionType;
-    }
-
-    public void setConversionType(ConversionType conversionType) {
-        this.conversionType = conversionType;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
 
-        if (!(o instanceof ConversionMatrix)) return false;
+        if (!(o instanceof ConversionChart)) return false;
 
-        ConversionMatrix that = (ConversionMatrix) o;
+        ConversionChart that = (ConversionChart) o;
 
         return new EqualsBuilder()
                 .append(id, that.id)

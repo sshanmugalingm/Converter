@@ -1,12 +1,11 @@
 package au.com.fx.converter.handler;
 
-import au.com.fx.converter.domain.Currency;
+import au.com.fx.converter.domain.ConversionChart;
 
 /**
  * Created by senthurshanmugalingm on 6/05/2017.
  */
 public interface RateConversionHandler {
 
-    Double convert(Currency baseCurrency, Currency termCurrency, boolean skipCalculation);
-
+    Double process(ConversionChart chart, Double currentRate);
 }
