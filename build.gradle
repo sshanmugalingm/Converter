@@ -1,0 +1,44 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+mainClassName = 'au.com.fx.converter.FXConverter'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.5'
+    compile 'org.springframework:spring-context:4.3.8.RELEASE'
+    compile 'org.springframework:spring-orm:4.3.8.RELEASE'
+    compile 'org.springframework.data:spring-data-jpa:1.11.3.RELEASE'
+    compile 'org.hibernate:hibernate-core:5.2.10.Final'
+    compile 'org.hibernate:hibernate-entitymanager:5.2.10.Final'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
+    compile 'org.codehaus.groovy:groovy-all:2.4.7'
+
+    runtime group: 'hsqldb', name: 'hsqldb', version: '1.8.0.7'
+
+    testCompile 'junit:junit:4.12'
+}
+
+jar {
+    baseName = 'FXCoverter'
+    version = '1.0.0'
+}
+
+sourceSets.main.java.srcDirs = []
+sourceSets.main.groovy.srcDirs += ["src/main/java"]
