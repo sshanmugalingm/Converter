@@ -6,40 +6,23 @@ import au.com.fx.converter.handler.RateConversionHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.Map;
+
 /**
  * Created by senthurshanmugalingm on 6/05/2017.
  */
 @Component("rateConversionHandlerFactory")
 public class RateConvertionHandlerFactoryImpl implements RateConversionHandlerFactory {
 
-    @Autowired
-    RateConversionHandler crossRateConversionHandler;
+    private Map<String, RateConversionHandler> rateConversionHandlerMap;
 
     @Autowired
-    RateConversionHandler invertRateConversionHandler;
-
-    @Autowired
-    RateConversionHandler directRateConversionHandler;
-
-    @Autowired
-    RateConversionHandler unityRateConversionHandler;
+    public void setRateConversionHandlerMap(Map<String, RateConversionHandler> rateConversionHandlerMap) {
+        this.rateConversionHandlerMap = rateConversionHandlerMap;
+    }
 
     @Override
     public RateConversionHandler getConversionHandler(ConversionType conversionType) {
-        RateConversionHandler rateConversionHandler = null;
-        switch (conversionType) {
-            case CROSSCURRENCY:
-                rateConversionHandler = crossRateConversionHandler;
-                break;
-            case INVERSE:
-                rateConversionHandler = invertRateConversionHandler;
-                break;
-            case DIRECT:
-                rateConversionHandler = directRateConversionHandler;
-                break;
-            case UNITY:
-                rateConversionHandler = unityRateConversionHandler;
-        }
-        return rateConversionHandler;
+        return (conversionType == null) ? null : rateConversionHandlerMap.get(conversionType.getHandlerName());
     }
 }

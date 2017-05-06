@@ -25,7 +25,6 @@ public class CrossRateConversionHandlerImpl extends BaseRateConversionHandler {
 
         ConversionChart crossReferenceChart = conversionChartRepository.findBySourceCurrencyAndDestinationCurrency(chart.getSourceCurrency(), chart.getReferenceCurrency());
         Double calculatedRate = currentRate * rateConversionHandler.process(crossReferenceChart, 1.0D);
-
         crossReferenceChart = conversionChartRepository.findBySourceCurrencyAndDestinationCurrency(chart.getReferenceCurrency(), chart.getDestinationCurrency());
 
         return rateConversionHandler.process(crossReferenceChart, calculatedRate);

@@ -6,8 +6,10 @@ import au.com.fx.converter.handler.RateConversionHandler;
 import au.com.fx.converter.repository.ConversionChartRepository;
 import au.com.fx.converter.repository.CurrencyRepository;
 import au.com.fx.converter.service.FxConversionService;
+import org.apache.commons.math3.util.Precision;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.Assert;
 
 /**
  * Created by senthurshanmugalingm on 6/05/2017.
@@ -25,15 +27,39 @@ public class FxConversionServiceImpl implements FxConversionService {
     RateConversionHandler rateConversionHandler;
 
     @Override
-    public double convert(String baseCurrencyCode, String termCurrencyCode) {
-        Currency baseCurrency = currencyRepository.findByCode(baseCurrencyCode);
-        Currency termCurrency = currencyRepository.findByCode(termCurrencyCode);
+    public Double convert(String baseCurrencyCode, String termCurrencyCode, Double amount) {
+        Assert.notNull(baseCurrencyCode, "Base Currency Code cannot be null.");
+        Assert.notNull(termCurrencyCode, "Base Currency Code cannot be null.");
+        Assert.notNull(amount, "Conversion Amount cannot be null.");
 
-        ConversionChart chart = conversionMatrixRepository.findBySourceCurrencyAndDestinationCurrency(baseCurrency, termCurrency);
+        Currency baseCurrency = getBaseCurrency(baseCurrencyCode);
+        Currency termCurrency = getTermCurrency(termCurrencyCode);
 
+        ConversionChart chart = getConversionChart(baseCurrency, termCurrency);
+        Double processedExchangeRate = rateConversionHandler.process(chart, 1D);
 
-        //This method should calculate the final value
-
-        return rateConversionHandler.process(chart, 1D);
+        return Precision.round(amount * processedExchangeRate, termCurrency.getDecimalPlaces());
     }
+
+    private Currency getBaseCurrency(String baseCurrencyCode) {
+        Currency baseCurrency = currencyRepository.findByCode(baseCurrencyCode);
+        Assert.notNull(baseCurrency, "Unable to find Base Currency : " + baseCurrencyCode);
+
+        return baseCurrency;
+    }
+
+    private Currency getTermCurrency(String termCurrencyCode) {
+        Currency termCurrency = currencyRepository.findByCode(termCurrencyCode);
+        Assert.notNull(termCurrency, "Unable to find Term Currency : " + termCurrencyCode);
+
+        return termCurrency;
+    }
+
+    private ConversionChart getConversionChart(Currency baseCurrency, Currency termCurrency) {
+        ConversionChart chart = conversionMatrixRepository.findBySourceCurrencyAndDestinationCurrency(baseCurrency, termCurrency);
+        Assert.notNull(chart, String.format("Unable to find Rate for %1$2s/%2$2s", baseCurrency.getCode(), termCurrency.getCode()));
+
+        return chart;
+    }
+
 }

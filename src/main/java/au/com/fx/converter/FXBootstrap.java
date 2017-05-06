@@ -1,6 +1,5 @@
 package au.com.fx.converter;
 
-import au.com.fx.converter.fixture.FxDataFixture;
 import au.com.fx.converter.repository.CurrencyRepository;
 import au.com.fx.converter.repository.ExchangeRateRepository;
 import au.com.fx.converter.service.FxConversionService;
@@ -13,10 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class FXBootstrap {
 
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:/config.xml");
-
-        FxDataFixture fixture = ctx.getBean(FxDataFixture.class);
-        fixture.createFxData();
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:/spring/applicationContext.xml");
 
         //TODO Clean up this after adding test cases
         CurrencyRepository repo = ctx.getBean(CurrencyRepository.class);
@@ -30,7 +26,9 @@ public class FXBootstrap {
         //Double exchangeRate = fxConversionService.convert("AUD", "USD");
         //Double exchangeRate = fxConversionService.convert("AUD", "JPY");
         //Double exchangeRate = fxConversionService.convert("USD", "NOK");
-        Double exchangeRate = fxConversionService.convert("JPY", "AUD");
+        //Double exchangeRate = fxConversionService.convert("JPY", "AUD");
+
+        Double exchangeRate = fxConversionService.convert("PPK", "AUD", 1D);
 
         System.out.println("Exchange Rate :: " + exchangeRate);
 

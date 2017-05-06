@@ -5,5 +5,5 @@ package au.com.fx.converter.service;
  */
 public interface FxConversionService {
 
-    double convert(String baseCurrency, String termCurrency);
+    Double convert(String baseCurrency, String termCurrency, Double amount);
 }
