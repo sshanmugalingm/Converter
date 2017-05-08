@@ -10,6 +10,7 @@ import javax.persistence.*;
  * Created by senthurshanmugalingm on 4/05/2017.
  */
 @Entity
+@Table(uniqueConstraints = {@UniqueConstraint(columnNames = {"sourceCurrency_id", "destinationCurrency_id"})})
 public class ConversionChart {
 
     @Id

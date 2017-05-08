@@ -2,12 +2,16 @@ buildscript {
     repositories {
         mavenCentral()
     }
+    dependencies {
+        classpath 'net.saliman:gradle-cobertura-plugin:2.2.4'
+    }
 }
 
 apply plugin: 'java'
 apply plugin: 'groovy'
 apply plugin: 'idea'
 apply plugin: 'application'
+apply plugin: 'cobertura'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -28,6 +32,10 @@ dependencies {
     compile 'org.springframework.data:spring-data-jpa:1.11.3.RELEASE'
     compile 'org.hibernate:hibernate-core:5.2.10.Final'
     compile 'org.hibernate:hibernate-entitymanager:5.2.10.Final'
+
+    //compile 'javax.validation:validation-api1.1.0.Final'
+    //compile 'org.hibernate:hibernate-validator:5.2.5.Final'
+
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
 
     runtime group: 'hsqldb', name: 'hsqldb', version: '1.8.0.7'
@@ -65,4 +73,8 @@ task integrationTest(type: Test) {
 configurations {
     integrationTestCompile.extendsFrom testCompile
     integrationTestRuntime.extendsFrom testRuntime
+}
+
+run{
+    standardInput = System.in
 }

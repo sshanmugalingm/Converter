@@ -2,13 +2,16 @@ package au.com.fx.converter.service;
 
 import au.com.fx.converter.domain.ConversionChart;
 import au.com.fx.converter.domain.Currency;
-import au.com.fx.converter.handler.RateConversionHandler;
+import au.com.fx.converter.service.handler.RateConversionHandler;
 import au.com.fx.converter.repository.ConversionChartRepository;
 import au.com.fx.converter.repository.CurrencyRepository;
 import org.apache.commons.math3.util.Precision;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
+import org.springframework.validation.annotation.Validated;
+
+import java.math.BigDecimal;
 
 /**
  * Created by senthurshanmugalingm on 6/05/2017.
@@ -26,7 +29,7 @@ public class FxConversionServiceImpl implements FxConversionService {
     RateConversionHandler rateConversionHandler;
 
     @Override
-    public Double convert(String baseCurrencyCode, String termCurrencyCode, Double amount) {
+    public BigDecimal convert(String baseCurrencyCode, String termCurrencyCode, Double amount) {
         Assert.notNull(baseCurrencyCode, "Base Currency Code cannot be null.");
         Assert.notNull(termCurrencyCode, "Base Currency Code cannot be null.");
         Assert.notNull(amount, "Conversion Amount cannot be null.");
@@ -37,7 +40,7 @@ public class FxConversionServiceImpl implements FxConversionService {
         ConversionChart chart = getConversionChart(baseCurrency, termCurrency);
         Double processedExchangeRate = rateConversionHandler.process(chart, 1D);
 
-        return Precision.round(amount * processedExchangeRate, termCurrency.getDecimalPlaces());
+        return new BigDecimal(amount * processedExchangeRate).setScale(termCurrency.getDecimalPlaces(), BigDecimal.ROUND_FLOOR);
     }
 
     private Currency getBaseCurrency(String baseCurrencyCode) {

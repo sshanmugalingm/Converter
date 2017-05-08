@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="au.com.fx.converter.handler.RateConversionHandlerImplSpec" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-05-08T04:12:24" hostname="Senthurs-MacBook-Pro.local" time="0.085">
-  <properties/>
-  <testcase name="process, should return the data passed, when the Conversion Chart is null" classname="au.com.fx.converter.handler.RateConversionHandlerImplSpec" time="0.001"/>
-  <testcase name="process, should pass the processing to the relevant handler based on the Conversion Type, when a valid Conversion Chart and amount is passed" classname="au.com.fx.converter.handler.RateConversionHandlerImplSpec" time="0.084"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

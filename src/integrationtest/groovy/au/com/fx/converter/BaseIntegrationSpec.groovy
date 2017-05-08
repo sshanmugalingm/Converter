@@ -1,6 +1,5 @@
 package au.com.fx.converter
 
-import au.com.fx.converter.factory.RateConversionHandlerFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.ApplicationContext
 import org.springframework.test.context.ContextConfiguration
