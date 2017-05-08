@@ -22,6 +22,21 @@ class DirectRateConversionHandlerImplSpec extends Specification {
 
     }
 
+    def "process, should throw exception, when the Exchange rate is null"() {
+        given :
+        directRateConversionHandler.exchangeRateRepository = Mock(ExchangeRateRepository) {
+            1 * findByBaseCurrencyAndTermCurrency(*_) >> {Currency baseCurrency, Currency termCurrency ->
+                return null
+            }
+        }
+
+        when :
+        directRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'USD')), 10D)
+
+        then :
+        thrown(IllegalArgumentException)
+    }
+
     def "process, should calculate the Direct Exchange Rate, when a valid Conversion Chart and Amount is passed"() {
 
         when :
