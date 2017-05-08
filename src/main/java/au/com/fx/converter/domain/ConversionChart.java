@@ -1,6 +1,6 @@
 package au.com.fx.converter.domain;
 
-import au.com.fx.converter.enums.ConversionType;
+import au.com.fx.converter.commons.enums.ConversionType;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 

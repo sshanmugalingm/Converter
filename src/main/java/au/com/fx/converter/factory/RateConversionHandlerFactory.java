@@ -1,6 +1,6 @@
 package au.com.fx.converter.factory;
 
-import au.com.fx.converter.enums.ConversionType;
+import au.com.fx.converter.commons.enums.ConversionType;
 import au.com.fx.converter.handler.RateConversionHandler;
 
 /**

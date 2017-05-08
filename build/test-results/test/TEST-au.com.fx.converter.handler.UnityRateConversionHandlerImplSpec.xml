@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.com.fx.converter.handler.UnityRateConversionHandlerImplSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-08T04:12:24" hostname="Senthurs-MacBook-Pro.local" time="0.004">
+  <properties/>
+  <testcase name="process, should calculate the Unity Exchange Rate, when a valid Conversion chart and amount is passed" classname="au.com.fx.converter.handler.UnityRateConversionHandlerImplSpec" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

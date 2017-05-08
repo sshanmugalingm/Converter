@@ -3,7 +3,7 @@ package au.com.fx.converter;
 import au.com.fx.converter.repository.CurrencyRepository;
 import au.com.fx.converter.repository.ExchangeRateRepository;
 import au.com.fx.converter.service.FxConversionService;
-import au.com.fx.converter.service.impl.FxConversionServiceImpl;
+import au.com.fx.converter.service.FxConversionServiceImpl;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -22,13 +22,13 @@ public class FXBootstrap {
         System.out.println("Find ALl Rates::: " + exchangeRateRepository.findAll());
 
         FxConversionService fxConversionService = ctx.getBean(FxConversionServiceImpl.class);
-        //Double exchangeRate = fxConversionService.convert("JPY", "NOK");
-        //Double exchangeRate = fxConversionService.convert("AUD", "USD");
+        Double exchangeRate = fxConversionService.convert("JPY", "NOK", 1D);
+        //Double exchangeRate = fxConversionService.convert("AUD", "USD", 200D);
         //Double exchangeRate = fxConversionService.convert("AUD", "JPY");
         //Double exchangeRate = fxConversionService.convert("USD", "NOK");
-        //Double exchangeRate = fxConversionService.convert("JPY", "AUD");
+        //Double exchangeRate = fxConversionService.convert("JPY", "AUD", 100D);
 
-        Double exchangeRate = fxConversionService.convert("PPK", "AUD", 1D);
+        //Double exchangeRate = fxConversionService.convert("PPK", "AUD", 1D);
 
         System.out.println("Exchange Rate :: " + exchangeRate);
 

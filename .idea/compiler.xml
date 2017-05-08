@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="FXConverter_integrationTest" target="1.8" />
       <module name="FXConverter_main" target="1.8" />
       <module name="FXConverter_test" target="1.8" />
     </bytecodeTargetLevel>
