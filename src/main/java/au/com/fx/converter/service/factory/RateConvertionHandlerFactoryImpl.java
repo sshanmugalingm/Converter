@@ -3,14 +3,13 @@ package au.com.fx.converter.service.factory;
 import au.com.fx.converter.commons.enums.ConversionType;
 import au.com.fx.converter.service.handler.RateConversionHandler;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
 /**
- * Created by senthurshanmugalingm on 6/05/2017.
+ * @see RateConversionHandlerFactory
+ * @author senthurshanmugalingm.
  */
-@Component("rateConversionHandlerFactory")
 public class RateConvertionHandlerFactoryImpl implements RateConversionHandlerFactory {
 
     private Map<String, RateConversionHandler> rateConversionHandlerMap;

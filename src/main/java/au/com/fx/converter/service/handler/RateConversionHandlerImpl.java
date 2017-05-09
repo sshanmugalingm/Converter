@@ -3,12 +3,16 @@ package au.com.fx.converter.service.handler;
 import au.com.fx.converter.domain.ConversionChart;
 import au.com.fx.converter.service.factory.RateConversionHandlerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 /**
- * Created by senthurshanmugalingm on 6/05/2017.
+ * This class will be responsible for finding the appropriate handler and delegate the Rate Conversion.
+ * This class will use the {@link RateConversionHandlerFactory} to obtain the Delegate.
+ *
+ * @author senthurshanmugalingm.
+ * @see RateConversionHandler
+ * @see RateConversionHandlerFactory
+ *
  */
-@Component("rateConversionHandler")
 public class RateConversionHandlerImpl implements RateConversionHandler {
 
     @Autowired

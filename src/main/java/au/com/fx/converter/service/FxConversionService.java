@@ -2,10 +2,22 @@ package au.com.fx.converter.service;
 
 import java.math.BigDecimal;
 
+
 /**
- * Created by senthurshanmugalingm on 6/05/2017.
+ * This will be responsible for Orchestrating the Overall Conversion.
+ *
+ * @author senthurshanmugalingm.
  */
 public interface FxConversionService {
 
-    BigDecimal convert(String baseCurrency, String termCurrency, Double amount);
+    /**
+     * This will convert the Base Currency into it's Term Currency and multiply the amount.
+     *
+     * @param baseCurrencyCode {@link String} the Base Currency Code
+     * @param termCurrencyCode {@link String} the Term Currency Code
+     * @param amount {@link Double} the amount to be converted
+     *
+     * @return {@link BigDecimal} the converted amount.
+     * */
+    BigDecimal convert(String baseCurrencyCode, String termCurrencyCode, Double amount);
 }

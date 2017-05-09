@@ -5,18 +5,17 @@ import au.com.fx.converter.domain.Currency;
 import au.com.fx.converter.service.handler.RateConversionHandler;
 import au.com.fx.converter.repository.ConversionChartRepository;
 import au.com.fx.converter.repository.CurrencyRepository;
-import org.apache.commons.math3.util.Precision;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
-import org.springframework.validation.annotation.Validated;
 
 import java.math.BigDecimal;
 
 /**
- * Created by senthurshanmugalingm on 6/05/2017.
+ * An implementation of {@link FxConversionService}.
+ *
+ * @author senthurshanmugalingm.
+ * @see FxConversionService
  */
-@Service
 public class FxConversionServiceImpl implements FxConversionService {
 
     @Autowired
@@ -31,30 +30,25 @@ public class FxConversionServiceImpl implements FxConversionService {
     @Override
     public BigDecimal convert(String baseCurrencyCode, String termCurrencyCode, Double amount) {
         Assert.notNull(baseCurrencyCode, "Base Currency Code cannot be null.");
-        Assert.notNull(termCurrencyCode, "Base Currency Code cannot be null.");
+        Assert.notNull(termCurrencyCode, "Term Currency Code cannot be null.");
         Assert.notNull(amount, "Conversion Amount cannot be null.");
 
-        Currency baseCurrency = getBaseCurrency(baseCurrencyCode);
-        Currency termCurrency = getTermCurrency(termCurrencyCode);
+        Currency baseCurrency = getCurrency(baseCurrencyCode, "Unable to find Base Currency");
+        Currency termCurrency = getCurrency(termCurrencyCode, "Unable to find Term Currency");
 
-        ConversionChart chart = getConversionChart(baseCurrency, termCurrency);
-        Double processedExchangeRate = rateConversionHandler.process(chart, 1D);
-
-        return new BigDecimal(amount * processedExchangeRate).setScale(termCurrency.getDecimalPlaces(), BigDecimal.ROUND_FLOOR);
+        return new BigDecimal(amount * getExchangeRate(baseCurrency, termCurrency)).setScale(termCurrency.getDecimalPlaces(), BigDecimal.ROUND_FLOOR);
     }
 
-    private Currency getBaseCurrency(String baseCurrencyCode) {
-        Currency baseCurrency = currencyRepository.findByCode(baseCurrencyCode);
-        Assert.notNull(baseCurrency, "Unable to find Base Currency : " + baseCurrencyCode);
+    private Currency getCurrency(String currencyCode, String message) {
+        Currency baseCurrency = currencyRepository.findByCode(currencyCode);
+        Assert.notNull(baseCurrency, message + " : " + currencyCode);
 
         return baseCurrency;
     }
 
-    private Currency getTermCurrency(String termCurrencyCode) {
-        Currency termCurrency = currencyRepository.findByCode(termCurrencyCode);
-        Assert.notNull(termCurrency, "Unable to find Term Currency : " + termCurrencyCode);
-
-        return termCurrency;
+    private Double getExchangeRate(Currency baseCurrency, Currency termCurrency) {
+        ConversionChart chart = getConversionChart(baseCurrency, termCurrency);
+        return rateConversionHandler.process(chart, 1D);
     }
 
     private ConversionChart getConversionChart(Currency baseCurrency, Currency termCurrency) {

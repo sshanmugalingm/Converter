@@ -3,7 +3,9 @@ package au.com.fx.converter.domain;
 import javax.persistence.*;
 
 /**
- * Created by senthurshanmugalingm on 4/05/2017.
+ * Represents a Currency Entity.
+ *
+ * @author senthurshanmugalingm.
  */
 @Entity
 public class Currency {

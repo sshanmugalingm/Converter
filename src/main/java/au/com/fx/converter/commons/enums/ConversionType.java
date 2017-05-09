@@ -1,7 +1,9 @@
 package au.com.fx.converter.commons.enums;
 
 /**
- * Created by senthurshanmugalingm on 4/05/2017.
+ * An Enum to Illustrate the different types of conversions available and their respective handlers.
+ *
+ * @author senthurshanmugalingm.
  */
 public enum ConversionType {
     UNITY("unityRateConversionHandler"),
@@ -15,6 +17,11 @@ public enum ConversionType {
         this.handlerName = handlerName;
     }
 
+    /**
+     * Use to get the Handler name for a given Conversion Type.
+     * @return  the handler name
+     *
+     * */
     public java.lang.String getHandlerName() {
         return handlerName;
     }

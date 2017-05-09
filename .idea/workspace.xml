@@ -2,11 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d578ff5c-2f42-4f71-8274-c8834494d7b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/spring/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsole.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/integrationTest/au/com/fx/converter/BaseIntegrationSpec.class" afterPath="$PROJECT_DIR$/build/classes/integrationTest/au/com/fx/converter/BaseIntegrationSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/integrationTest/au/com/fx/converter/FxConversionIntegrationSpec.class" afterPath="$PROJECT_DIR$/build/classes/integrationTest/au/com/fx/converter/FxConversionIntegrationSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/FXBootstrap.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/FXBootstrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/commons/enums/ConversionType.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/commons/enums/ConversionType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/ConversionChart.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/ConversionChart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/Currency.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/Currency.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/ExchangeRate.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/ExchangeRate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/FxConversionServiceImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/FxConversionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/BaseRateConversionHandler.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/BaseRateConversionHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/RateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/RateConversionHandlerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/ui/console/FxConsole.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/ui/console/FxConsole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_1_closure1$_closure10.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_1_closure1$_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_1_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_1_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure2$_closure11.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure2$_closure11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure3$_closure12.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure3$_closure12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure4$_closure13.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure4$_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure5$_closure14.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure5$_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure5.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure6$_closure15.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure6$_closure15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure6.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure7$_closure16.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure7$_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure7.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure8$_closure17.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure8$_closure17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure8.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure9$_closure18.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure9$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure9.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/factory/RateConversionHandlerFactoryImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/factory/RateConversionHandlerFactoryImplSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure2$_closure5.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure2$_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure3$_closure6.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure3$_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2$_closure3$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2$_closure3$_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2$_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2$_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/C:\log4j-application.log" afterPath="$PROJECT_DIR$/C:\log4j-application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy" afterPath="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/Currency.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/Currency.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ExchangeRate.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ExchangeRate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ConversionChartRepository.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ConversionChartRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/CurrencyRepository.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/CurrencyRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ExchangeRateRepository.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ExchangeRateRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConversionHandlerFactory.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConversionHandlerFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandlerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -49,6 +139,16 @@
                 <option name="myItemId" value="FXConverter" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="FXConverter" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
               <PATH_ELEMENT>
                 <option name="myItemId" value="Tasks" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
@@ -72,134 +172,13 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
               </PATH_ELEMENT>
             </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="FXConverter" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-            </PATH>
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RateConvertionHandlerFactoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FxConsole.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionHandlerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FxConversionServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="34" column="68" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="34" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseIntegrationSpec.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrossRateConversionHandlerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FxConversionIntegrationSpec.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/FxConversionIntegrationSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#29#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectRateConversionHandlerImplSpec.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseRateConversionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConversionType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -219,6 +198,7 @@
       <find>crossRateConversionHandler</find>
       <find>unityRateConversionHandler</find>
       <find>INVERSE</find>
+      <find>generateDdl</find>
     </findStrings>
     <replaceStrings>
       <replace>term</replace>
@@ -594,7 +574,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4482014985000" />
+        <entry key="$PROJECT_DIR$" value="4482067839000" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2184214440" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="528695444" />
       </map>
@@ -774,24 +754,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/DirectRateConversionHandlerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/UnityRateConversionHandlerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/factory/RateConvertionHandlerFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ConversionMatrixRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ConversionChartRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/sql/FxData.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/enums/ConversionType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/factory/impl/RateConvertionHandlerFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/RateConversionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/Pcake.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/Chain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/impl/CrossRateConversionHandlerImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/factory/RateConverionHandlerFactorySpec.groovy" />
-        <option value="$PROJECT_DIR$/src/integration-test/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/impl/FxConversionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/RateConversionHandlerImpl.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/factory/RateConversionHandlerFactorySpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/handler/CrossRateConversionHandlerImpl.java" />
@@ -806,25 +768,43 @@
         <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/console/Console.java" />
-        <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/console/FxConsole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/initdata_dml.sql" />
         <option value="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/FxConversionIntegrationSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfigImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java" />
+        <option value="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/Currency.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ExchangeRate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ConversionChartRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/CurrencyRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ExchangeRateRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConversionHandlerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java" />
       </list>
     </option>
   </component>
@@ -1251,6 +1231,156 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enums" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integrationtest" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXConverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integrationtest" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1299,7 +1429,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectRateConversionHandlerImplSpec.process, should throw exception, when the Exchange rate is null">
+  <component name="RunManager" selected="JUnit.FxConversionServiceImplSpec">
+    <configuration default="false" name="FxConversionServiceImplSpec.convert, should throw exception, when #paramUnderTest is null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="au.com.fx.converter.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FXConverter_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="au.com.fx.converter.service" />
+      <option name="MAIN_CLASS_NAME" value="au.com.fx.converter.service.FxConversionServiceImplSpec" />
+      <option name="METHOD_NAME" value="convert, should throw exception, when #paramUnderTest is null" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FXConverter [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="FxConversionServiceImplSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1326,7 +1500,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FxConversionServiceImplSpec.c" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the currency for #paramUnderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="au.com.fx.converter.service.*" />
@@ -1338,7 +1512,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="au.com.fx.converter.service" />
       <option name="MAIN_CLASS_NAME" value="au.com.fx.converter.service.FxConversionServiceImplSpec" />
-      <option name="METHOD_NAME" value="c" />
+      <option name="METHOD_NAME" value="convert, should throw exception, when the System cannot find the currency for #paramUnderTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1352,65 +1526,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FXBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the Conversion Chart for Base Currency and Term Currency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="au.com.fx.converter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="au.com.fx.converter.FXBootstrap" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FXConverter_main" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="FxConversionIntegrationSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="au.com.fx.converter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FXConverter_integrationTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="au.com.fx.converter" />
-      <option name="MAIN_CLASS_NAME" value="au.com.fx.converter.FxConversionIntegrationSpec" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DirectRateConversionHandlerImplSpec.process, should throw exception, when the Exchange rate is null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="au.com.fx.converter.service.handler.*" />
+          <option name="PATTERN" value="au.com.fx.converter.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="FXConverter_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="au.com.fx.converter.service.handler" />
-      <option name="MAIN_CLASS_NAME" value="au.com.fx.converter.service.handler.DirectRateConversionHandlerImplSpec" />
-      <option name="METHOD_NAME" value="process, should throw exception, when the Exchange rate is null" />
+      <option name="PACKAGE_NAME" value="au.com.fx.converter.service" />
+      <option name="MAIN_CLASS_NAME" value="au.com.fx.converter.service.FxConversionServiceImplSpec" />
+      <option name="METHOD_NAME" value="convert, should throw exception, when the System cannot find the Conversion Chart for Base Currency and Term Currency" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1821,19 +1949,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec.c" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FXBootstrap" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FxConversionIntegrationSpec" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DirectRateConversionHandlerImplSpec.process, should throw exception, when the Exchange rate is null" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec.convert, should throw exception, when #paramUnderTest is null" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.FXConverter [clean]" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the currency for #paramUnderTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the Conversion Chart for Base Currency and Term Currency" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DirectRateConversionHandlerImplSpec.process, should throw exception, when the Exchange rate is null" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FxConversionIntegrationSpec" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FXBootstrap" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec.c" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the Conversion Chart for Base Currency and Term Currency" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the currency for #paramUnderTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FxConversionServiceImplSpec.convert, should throw exception, when #paramUnderTest is null" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.FXConverter [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -1854,48 +1982,47 @@
       <workItem from="1494029700585" duration="27116000" />
       <workItem from="1494073884676" duration="1839000" />
       <workItem from="1494075753202" duration="7806000" />
-      <workItem from="1494138345746" duration="35156000" />
+      <workItem from="1494138345746" duration="51782000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DirectRateConversionHandlerImplSpec_process,_should_throw_exception,_when_the_Exchange_rate_is_null - 2017.05.08 at 22h 29m 39s.xml">
-      <configuration name="DirectRateConversionHandlerImplSpec.process, should throw exception, when the Exchange rate is null" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec - 2017.05.09 at 11h 12m 52s.xml">
+      <configuration name="FxConversionServiceImplSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionIntegrationSpec - 2017.05.08 at 22h 14m 43s.xml">
-      <configuration name="FxConversionIntegrationSpec" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec - 2017.05.09 at 12h 52m 40s.xml">
+      <configuration name="FxConversionServiceImplSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionIntegrationSpec - 2017.05.08 at 22h 23m 58s.xml">
-      <configuration name="FxConversionIntegrationSpec" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec - 2017.05.09 at 12h 57m 32s.xml">
+      <configuration name="FxConversionServiceImplSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionServiceImplSpec_c - 2017.05.08 at 16h 22m 01s.xml">
-      <configuration name="FxConversionServiceImplSpec.c" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec - 2017.05.09 at 12h 58m 27s.xml">
+      <configuration name="FxConversionServiceImplSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionServiceImplSpec_c - 2017.05.08 at 16h 22m 08s.xml">
-      <configuration name="FxConversionServiceImplSpec.c" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec - 2017.05.09 at 12h 59m 35s.xml">
+      <configuration name="FxConversionServiceImplSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionServiceImplSpec_c - 2017.05.08 at 16h 22m 24s.xml">
-      <configuration name="FxConversionServiceImplSpec.c" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec_convert,_should_throw_exception,_when_the_System_cannot_find_the_Conversion_Chart_for_Base_Currency_and_Term_Currency - 2017.05.09 at 12h 59m 28s.xml">
+      <configuration name="FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the Conversion Chart for Base Currency and Term Currency" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionServiceImplSpec_c - 2017.05.08 at 16h 22m 33s.xml">
-      <configuration name="FxConversionServiceImplSpec.c" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec_convert,_should_throw_exception,_when_the_System_cannot_find_the_currency_for_#paramUnderTest - 2017.05.09 at 12h 55m 21s.xml">
+      <configuration name="FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the currency for #paramUnderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionServiceImplSpec_c - 2017.05.08 at 17h 35m 03s.xml">
-      <configuration name="FxConversionServiceImplSpec.c" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec_convert,_should_throw_exception,_when_the_System_cannot_find_the_currency_for_#paramUnderTest - 2017.05.09 at 12h 56m 17s.xml">
+      <configuration name="FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the currency for #paramUnderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionServiceImplSpec_c - 2017.05.08 at 17h 35m 24s.xml">
-      <configuration name="FxConversionServiceImplSpec.c" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec_convert,_should_throw_exception,_when_the_System_cannot_find_the_currency_for_#paramUnderTest - 2017.05.09 at 12h 57m 01s.xml">
+      <configuration name="FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the currency for #paramUnderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FxConversionServiceImplSpec_c - 2017.05.08 at 17h 35m 36s.xml">
-      <configuration name="FxConversionServiceImplSpec.c" configurationId="JUnit" />
+    <history-entry file="FxConversionServiceImplSpec_convert,_should_throw_exception,_when_the_System_cannot_find_the_currency_for_#paramUnderTest - 2017.05.09 at 12h 57m 22s.xml">
+      <configuration name="FxConversionServiceImplSpec.convert, should throw exception, when the System cannot find the currency for #paramUnderTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90004000" />
+    <option name="totallyTimeSpent" value="106630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1914,11 +2041,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18811882" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46930692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2742279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2742279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1953,11 +2080,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3792079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46930692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2742279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2742279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1990,258 +2117,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/integrationtest/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.8.RELEASE/717681088e22206f927dc8cec10a3ed1954da527/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="63" column="76" lean-forward="true" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.8.RELEASE/717681088e22206f927dc8cec10a3ed1954da527/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/ConfigurableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="41" column="74" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.8.RELEASE/717681088e22206f927dc8cec10a3ed1954da527/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="126" column="38" lean-forward="false" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.8.RELEASE/717681088e22206f927dc8cec10a3ed1954da527/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="38" column="79" lean-forward="true" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.8.RELEASE/717681088e22206f927dc8cec10a3ed1954da527/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="44" column="72" lean-forward="false" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.8.RELEASE/717681088e22206f927dc8cec10a3ed1954da527/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#8300#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2807#2808#0" expanded="false" />
-            <element signature="e#2827#2828#0" expanded="false" />
-            <element signature="e#8261#8262#0" expanded="false" />
-            <element signature="e#8295#8296#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/applicationContext.xml" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.0.5.RELEASE/846537e521fd4e883d0072245960e4f1f91c187a/spring-test-4.0.5.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1308">
-          <caret line="86" column="18" lean-forward="false" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.0.5.RELEASE/846537e521fd4e883d0072245960e4f1f91c187a/spring-test-4.0.5.RELEASE-sources.jar!/org/springframework/test/context/support/AbstractContextLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5767#5830#0" expanded="false" />
-            <element signature="e#12905#12906#0" expanded="false" />
-            <element signature="e#12923#12924#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.0.5.RELEASE/846537e521fd4e883d0072245960e4f1f91c187a/spring-test-4.0.5.RELEASE-sources.jar!/org/springframework/test/context/support/AnnotationConfigContextLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#9275#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4556#4557#0" expanded="false" />
-            <element signature="e#4654#4655#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/8fab23986ea8886af34818daf32a718e81dc98ba/commons-math3-3.6.1-sources.jar!/org/apache/commons/math3/util/Precision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="422" column="45" lean-forward="true" selection-start-line="422" selection-start-column="45" selection-end-line="422" selection-end-column="45" />
-          <folding>
-            <element signature="e#16106#16107#0" expanded="false" />
-            <element signature="e#16170#16171#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.1-groovy-2.4-rc-4/e026e514e3ec35843ea17e4f99aebb0c860aea5e/spock-core-1.1-groovy-2.4-rc-4-sources.jar!/org/spockframework/runtime/GroovyRuntimeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ExchangeRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConversionHandlerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#45#94#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#45#94#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#45#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/factory/RateConversionHandlerFactoryImplSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#45#100#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#100#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="2510" column="22" lean-forward="false" selection-start-line="2510" selection-start-column="22" selection-end-line="2510" selection-end-column="22" />
-          <folding>
-            <element signature="e#106317#106318#0" expanded="false" />
-            <element signature="e#106377#106378#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="860" column="25" lean-forward="false" selection-start-line="860" selection-start-column="13" selection-end-line="860" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="2108" column="26" lean-forward="false" selection-start-line="2108" selection-start-column="26" selection-end-line="2108" selection-end-column="26" />
-          <folding>
-            <element signature="e#82280#82281#0" expanded="true" />
-            <element signature="e#82331#82332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="1131" column="66" lean-forward="false" selection-start-line="1131" selection-start-column="61" selection-end-line="1131" selection-end-column="66" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="158" column="63" lean-forward="false" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
-          <folding>
-            <element signature="e#37#92#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2253,60 +2133,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.5.Final/9bfb0295f922660eba0c58933077c0ef4ba955d5/hibernate-validator-5.2.5.Final-sources.jar!/org/hibernate/validator/constraints/NotBlank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2319,41 +2149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/initdata_dml.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2591">
@@ -2362,19 +2157,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="627">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfigImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.8.RELEASE/4750916e527d98d3e3c3e1fcd9c67b8a60571e76/spring-jdbc-4.3.8.RELEASE-sources.jar!/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="137" column="16" lean-forward="false" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+          <folding>
+            <element signature="e#3576#3577#0" expanded="false" />
+            <element signature="e#3631#3632#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.8.RELEASE/4750916e527d98d3e3c3e1fcd9c67b8a60571e76/spring-jdbc-4.3.8.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="106" column="17" lean-forward="true" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.8.RELEASE/7300f417f4e5230ed3a304671ff6db42c1d0f087/spring-orm-4.3.8.RELEASE-sources.jar!/org/springframework/orm/jpa/EntityManagerFactoryInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.8.RELEASE/7300f417f4e5230ed3a304671ff6db42c1d0f087/spring-orm-4.3.8.RELEASE-sources.jar!/org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="90" column="47" lean-forward="false" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.8.RELEASE/7300f417f4e5230ed3a304671ff6db42c1d0f087/spring-orm-4.3.8.RELEASE-sources.jar!/org/springframework/orm/jpa/LocalContainerEntityManagerFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="88" column="51" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.8.RELEASE/7300f417f4e5230ed3a304671ff6db42c1d0f087/spring-orm-4.3.8.RELEASE-sources.jar!/org/springframework/orm/jpa/vendor/AbstractJpaVendorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="33" column="63" lean-forward="false" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.8.RELEASE/7300f417f4e5230ed3a304671ff6db42c1d0f087/spring-orm-4.3.8.RELEASE-sources.jar!/org/springframework/orm/jpa/JpaVendorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.8.RELEASE/7300f417f4e5230ed3a304671ff6db42c1d0f087/spring-orm-4.3.8.RELEASE-sources.jar!/org/springframework/orm/jpa/vendor/HibernateJpaVendorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="61" column="50" lean-forward="false" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.8.RELEASE/55b84eaa488b3659dae971573aad35fe6f549011/spring-jdbc-4.3.8.RELEASE.jar!/org/springframework/jdbc/config/spring-jdbc-3.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="50" column="106" lean-forward="false" selection-start-line="50" selection-start-column="85" selection-end-line="50" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.8.RELEASE/4750916e527d98d3e3c3e1fcd9c67b8a60571e76/spring-jdbc-4.3.8.RELEASE-sources.jar!/org/springframework/jdbc/datasource/init/DatabasePopulatorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2090#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.8.RELEASE/4750916e527d98d3e3c3e1fcd9c67b8a60571e76/spring-jdbc-4.3.8.RELEASE-sources.jar!/org/springframework/jdbc/datasource/init/DataSourceInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#3417#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#45#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2388,18 +2322,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.groovy">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="-8725">
+          <caret line="171" column="6" lean-forward="false" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#54151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="328">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ExchangeRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ConversionChartRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/CurrencyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ExchangeRateRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2408,39 +2420,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        <state relative-caret-position="361">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConversionHandlerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="95">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="53" lean-forward="false" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="53" />
+          <folding>
+            <element signature="e#37#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="34" column="68" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="34" selection-end-column="68" />
+        <state relative-caret-position="26">
+          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

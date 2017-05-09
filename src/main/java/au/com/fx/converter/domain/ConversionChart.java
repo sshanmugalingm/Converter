@@ -7,7 +7,9 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 import javax.persistence.*;
 
 /**
- * Created by senthurshanmugalingm on 4/05/2017.
+ * Represents the Conversion Chart.  This chart will help to figure out the conversion path of two currencies (Term and Base).
+ *
+ * @author senthurshanmugalingm.
  */
 @Entity
 @Table(uniqueConstraints = {@UniqueConstraint(columnNames = {"sourceCurrency_id", "destinationCurrency_id"})})

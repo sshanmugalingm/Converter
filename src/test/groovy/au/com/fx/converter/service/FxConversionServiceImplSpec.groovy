@@ -32,21 +32,23 @@ class FxConversionServiceImplSpec extends Specification {
         fxConversionService.convert(baseCurrency, termCurrency, amount)
 
         then :
-        thrown(IllegalArgumentException)
+        IllegalArgumentException e = thrown()
+        e.message == errorMessage
 
         where :
-        paramUnderTest       | baseCurrency   | termCurrency   | amount
-        'Base Currency Code' | null           | 'USD'          | new Double(10)
-        'Term Currency Code' | 'AUD'          | null           | new Double(10)
-        'Amount'             | 'AUD'          | 'USD'          | null
+        paramUnderTest       | baseCurrency   | termCurrency   | amount               | errorMessage
+        'Base Currency Code' | null           | 'USD'          | new Double(10) | 'Base Currency Code cannot be null.'
+        'Term Currency Code' | 'AUD'          | null           | new Double(10) | 'Term Currency Code cannot be null.'
+        'Amount'             | 'AUD'          | 'USD'          | null                 | 'Conversion Amount cannot be null.'
 
     }
 
+    @Unroll
     def "convert, should throw exception, when the System cannot find the currency for #paramUnderTest"() {
         given :
         fxConversionService.currencyRepository = Mock(CurrencyRepository) {
-            1 * findByCode(_) >> {String currencyCode ->
-                return null
+            interactions * findByCode(_) >> {String currencyCode ->
+                return currencyCode == 'EUR' ? new Currency() : null
             }
         }
 
@@ -54,12 +56,13 @@ class FxConversionServiceImplSpec extends Specification {
         fxConversionService.convert(baseCurrency, termCurrency, 10D)
 
         then :
-        thrown(IllegalArgumentException)
+        IllegalArgumentException e = thrown()
+        e.message == errorMessage
 
         where :
-        paramUnderTest       | baseCurrency   | termCurrency
-        'Base Currency Code' | 'AUD'          | 'USD'
-        'Term Currency Code' | 'AUD'          | 'USD'
+        paramUnderTest       | baseCurrency   | termCurrency | errorMessage                         | interactions
+        'Base Currency Code' | 'AUD'          | 'USD'        | 'Unable to find Base Currency : AUD' | 1
+        'Term Currency Code' | 'EUR'          | 'USD'        | 'Unable to find Term Currency : USD' | 2
     }
 
     def "convert, should throw exception, when the System cannot find the Conversion Chart for Base Currency and Term Currency"() {
@@ -81,7 +84,8 @@ class FxConversionServiceImplSpec extends Specification {
         fxConversionService.convert('AUD', 'USD', 10D)
 
         then :
-        thrown(IllegalArgumentException)
+        IllegalArgumentException e = thrown()
+        e.message == 'Unable to find Rate for AUD/USD'
     }
 
     def "convert, should convert the Amount from Base Currency to Term Currency, when Base and Term Currency codes are valid"() {
@@ -146,17 +150,6 @@ class FxConversionServiceImplSpec extends Specification {
         termCurrencyCode | precision | expectedResult
         'USD'            | 2         | '1.15'
         'JPY'            | 0         | '1'
-    }
-
-
-    def "c"() {
-        when :
-        String pattern = "[A-Z]{3}\\s+\\d*(\\.\\d+)?+\\s+in+\\s[A-Z]{3}"
-
-
-        then :
-        "USD 123.00 in USD".matches(pattern)
-        println (String.format("Unable to find Rate for %1s %2s", "DF", "dffd"))
     }
 
 }

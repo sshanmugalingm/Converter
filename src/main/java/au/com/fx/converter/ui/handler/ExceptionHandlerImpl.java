@@ -2,12 +2,12 @@ package au.com.fx.converter.ui.handler;
 
 
 import org.apache.log4j.Logger;
-import org.springframework.stereotype.Component;
 
 /**
- * Created by senthurshanmugalingm on 8/05/2017.
+ * @author senthurshanmugalingm.
+ * @see ExceptionHandler
+ *
  */
-@Component
 public class ExceptionHandlerImpl implements ExceptionHandler {
 
     final static Logger logger = Logger.getLogger(ExceptionHandlerImpl.class);

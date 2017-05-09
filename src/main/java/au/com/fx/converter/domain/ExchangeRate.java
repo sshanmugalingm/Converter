@@ -7,7 +7,9 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 /**
- * Created by senthurshanmugalingm on 4/05/2017.
+ * Represents the Exchange Rate Information for BASE/TERM currency combination.
+ *
+ * @author senthurshanmugalingm.
  */
 @Entity
 public class ExchangeRate {
