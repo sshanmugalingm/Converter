@@ -1,103 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d578ff5c-2f42-4f71-8274-c8834494d7b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/spring/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsole.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/integrationTest/au/com/fx/converter/BaseIntegrationSpec.class" afterPath="$PROJECT_DIR$/build/classes/integrationTest/au/com/fx/converter/BaseIntegrationSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/integrationTest/au/com/fx/converter/FxConversionIntegrationSpec.class" afterPath="$PROJECT_DIR$/build/classes/integrationTest/au/com/fx/converter/FxConversionIntegrationSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/FXBootstrap.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/FXBootstrap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/commons/enums/ConversionType.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/commons/enums/ConversionType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/ConversionChart.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/ConversionChart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/Currency.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/Currency.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/ExchangeRate.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/domain/ExchangeRate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/FxConversionServiceImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/FxConversionServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/BaseRateConversionHandler.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/BaseRateConversionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/RateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/RateConversionHandlerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/ui/console/FxConsole.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/ui/console/FxConsole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_1_closure1$_closure10.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_1_closure1$_closure10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_1_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_1_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure2$_closure11.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure2$_closure11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure3$_closure12.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure3$_closure12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_2_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure4$_closure13.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure4$_closure13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure5$_closure14.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure5$_closure14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure5.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure6$_closure15.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure6$_closure15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure6.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_3_closure6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure7$_closure16.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure7$_closure16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure7.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure8$_closure17.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure8$_closure17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure8.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure9$_closure18.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure9$_closure18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure9.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec$__spock_feature_0_4_closure9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/FxConversionServiceImplSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/factory/RateConversionHandlerFactoryImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/factory/RateConversionHandlerFactoryImplSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/CrossRateConversionHandlerImplSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure2$_closure5.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure2$_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure3$_closure6.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure3$_closure6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec$__spock_feature_0_1_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure2$_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec$__spock_feature_0_0_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/InvertRateConversionHandlerImplSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2$_closure3$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2$_closure3$_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2$_closure3.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2$_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1$_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec$__spock_feature_0_1_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/RateConversionHandlerImplSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure2.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec$__spock_feature_0_0_closure1$_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec$__spock_feature_0_0_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/C:\log4j-application.log" afterPath="$PROJECT_DIR$/C:\log4j-application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy" afterPath="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/Currency.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/Currency.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ExchangeRate.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ExchangeRate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ConversionChartRepository.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ConversionChartRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/CurrencyRepository.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/CurrencyRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ExchangeRateRepository.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/repository/ExchangeRateRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConversionHandlerFactory.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConversionHandlerFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/factory/RateConvertionHandlerFactoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/CrossRateConversionHandlerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/DirectRateConversionHandlerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/InvertRateConversionHandlerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/RateConversionHandlerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy" />
-    </list>
+    <list default="true" id="d578ff5c-2f42-4f71-8274-c8834494d7b2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,7 +82,18 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1982,7 +1897,7 @@
       <workItem from="1494029700585" duration="27116000" />
       <workItem from="1494073884676" duration="1839000" />
       <workItem from="1494075753202" duration="7806000" />
-      <workItem from="1494138345746" duration="51782000" />
+      <workItem from="1494138345746" duration="52360000" />
     </task>
     <servers />
   </component>
@@ -2019,7 +1934,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106630000" />
+    <option name="totallyTimeSpent" value="107208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -2041,7 +1956,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46930692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46930692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2080,11 +1995,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46930692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46930692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2742279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2742279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2291,14 +2206,6 @@
           <folding>
             <element signature="e#45#94#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2570,6 +2477,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding />
         </state>
       </provider>
