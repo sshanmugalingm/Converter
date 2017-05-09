@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'net.saliman:gradle-cobertura-plugin:2.2.4'
+
     }
 }
 
@@ -11,7 +11,7 @@ apply plugin: 'java'
 apply plugin: 'groovy'
 apply plugin: 'idea'
 apply plugin: 'application'
-apply plugin: 'cobertura'
+
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -72,5 +72,12 @@ configurations {
 }
 
 run{
+    standardInput = System.in
+}
+
+task runJar(type: JavaExec) {
+    classpath = files("build/libs/${jar.baseName}-${jar.version}.jar")
+    classpath += sourceSets.main.runtimeClasspath
+    main = mainClassName
     standardInput = System.in
 }

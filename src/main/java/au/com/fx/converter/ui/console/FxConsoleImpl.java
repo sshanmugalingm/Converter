@@ -44,7 +44,7 @@ public class FxConsoleImpl implements FxConsole {
             if (inputPattern.matcher(consoleInput).matches()) {
                 System.out.println(getExchangeRate(consoleInput));
             } else {
-                System.out.print("Invalid Input! ");
+                System.out.println("Invalid Input! ");
             }
         }
     }
