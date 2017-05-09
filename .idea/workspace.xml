@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d578ff5c-2f42-4f71-8274-c8834494d7b2" name="Default" comment="" />
+    <list default="true" id="d578ff5c-2f42-4f71-8274-c8834494d7b2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/C:\log4j-application.log" afterPath="$PROJECT_DIR$/C:\log4j-application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java" afterPath="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,9 +97,43 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="247">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersistenceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="708">
+              <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FxConsoleImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,13 +180,10 @@
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
             <ext name="groovyRuntime" type="org.gradle.api.tasks.GroovyRuntime" />
             <ext name="distributions" type="org.gradle.api.distribution.internal.DefaultDistributionContainer" objectType="org.gradle.api.distribution.internal.DefaultDistribution" />
-            <ext name="cobertura" type="net.saliman.gradle.plugin.cobertura.CoberturaExtension" />
-            <task name="cobertura">Run tests and generate Cobertura coverage reports.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="compileIntegrationTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles integration test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'FXConverter'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="run" type="org.gradle.api.tasks.JavaExec">Runs this project as a JVM application&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
             <task name="wrapper" type="org.gradle.api.tasks.wrapper.Wrapper">Generates Gradle wrapper files. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
-            <task name="generateCoberturaReport" type="net.saliman.gradle.plugin.cobertura.GenerateReportTask">Generate a Cobertura report after tests finish.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="startScripts" type="org.gradle.api.tasks.application.CreateStartScripts">Creates OS specific scripts to run the project as a JVM application.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of root project 'FXConverter'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
@@ -159,6 +201,7 @@
             <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="distTar" type="org.gradle.api.tasks.bundling.Tar">Bundles the project as a distribution.&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
             <task name="ideaProject" type="org.gradle.plugins.ide.idea.GenerateIdeaProject">Generates IDEA project file (IPR)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="runJar" type="org.gradle.api.tasks.JavaExec">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="distZip" type="org.gradle.api.tasks.bundling.Zip">Bundles the project as a distribution.&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
             <task name="processIntegrationTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes integration test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by root project 'FXConverter'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
@@ -166,7 +209,6 @@
             <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="classes">Assembles main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in root project 'FXConverter'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="instrument" type="net.saliman.gradle.plugin.cobertura.InstrumentTask">Instrument code for Cobertura coverage reports&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="testClasses">Assembles test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="javadoc" type="org.gradle.api.tasks.javadoc.Javadoc">Generates Javadoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
@@ -178,21 +220,16 @@
             <task name="ideaWorkspace" type="org.gradle.plugins.ide.idea.GenerateIdeaWorkspace">Generates an IDEA workspace file (IWS)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="integrationTestClasses">Assembles integration test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in root project 'FXConverter'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="coberturaCheck">Check test coverage.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="assemble">Assembles the outputs of this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="copyCoberturaDatafile" type="net.saliman.gradle.plugin.cobertura.CopyDatafileTask">Helper task that makes a fresh copy of the Cobertura data file for tests&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="performCoverageCheck" type="net.saliman.gradle.plugin.cobertura.PerformCoverageCheckTask">Perform a Cobertura test coverage check.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="coberturaReport">Generate Cobertura reports after tests finish.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="integrationTest" type="org.gradle.api.tasks.testing.Test">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of root project 'FXConverter'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="cleanIdeaWorkspace" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <conf name="archives">Configuration for archive artifacts.</conf>
-            <conf name="cobertura" />
             <conf name="compile" visible="false">Dependencies for source set 'main'.</conf>
             <conf name="compileClasspath" visible="false">Compile classpath for source set 'main'.</conf>
             <conf name="compileOnly" visible="false">Compile dependencies for source set 'main'.</conf>
@@ -249,11 +286,6 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Run tests and generate Cobertura coverage reports." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="cobertura" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Compiles integration test Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileIntegrationTestJava" />
@@ -272,11 +304,6 @@
                 <option name="description" value="Generates Gradle wrapper files. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generate a Cobertura report after tests finish." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateCoberturaReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
@@ -359,6 +386,10 @@
                 <option name="name" value="distTar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="runJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Bundles the project as a distribution." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="distZip" />
@@ -387,11 +418,6 @@
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'FXConverter'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Instrument code for Cobertura coverage reports" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="instrument" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
@@ -429,11 +455,6 @@
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Check test coverage." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="coberturaCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assemble" />
@@ -449,29 +470,14 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Helper task that makes a fresh copy of the Cobertura data file for tests" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyCoberturaDatafile" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Perform a Cobertura test coverage check." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="performCoverageCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generate Cobertura reports after tests finish." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="coberturaReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -489,8 +495,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4482067839000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2184214440" />
+        <entry key="$PROJECT_DIR$" value="4482076904000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2350814159" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="528695444" />
       </map>
     </option>
@@ -504,14 +510,6 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.saliman/gradle-cobertura-plugin/2.2.4/4b7a5d2d3414288779c6735bd14ed816191f6d96/gradle-cobertura-plugin-2.2.4-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.saliman/gradle-cobertura-plugin/2.2.4/40f6f5dbd09c41a83e59be0b1e89b5234d9cfb4a/gradle-cobertura-plugin-2.2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.0.6/5b065ea9beee4d4936c38875f59f91e6fbddadc5/groovy-all-2.0.6-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.0.6/ea722dd9fa8df99a7e88448d5b914215145e856d/groovy-all-2.0.6.jar" />
-                          </list>
-                        </option>
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -685,17 +683,14 @@
         <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/UnityRateConversionHandlerImplSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/console/Console.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/console/FxConsole.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/initdata_dml.sql" />
         <option value="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/FxConversionIntegrationSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/handler/DirectRateConversionHandlerImplSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfigImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/db.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java" />
         <option value="$PROJECT_DIR$/src/integrationtest/groovy/au/com/fx/converter/BaseIntegrationSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/commons/enums/ConversionType.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/Currency.java" />
@@ -709,7 +704,6 @@
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/BaseRateConversionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/handler/UnityRateConversionHandlerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandlerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/FXBootstrap.java" />
@@ -720,6 +714,10 @@
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/au/com/fx/converter/service/FxConversionServiceImplSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/service/FxConversionService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1897,7 +1895,7 @@
       <workItem from="1494029700585" duration="27116000" />
       <workItem from="1494073884676" duration="1839000" />
       <workItem from="1494075753202" duration="7806000" />
-      <workItem from="1494138345746" duration="52360000" />
+      <workItem from="1494138345746" duration="54462000" />
     </task>
     <servers />
   </component>
@@ -1934,10 +1932,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107208000" />
+    <option name="totallyTimeSpent" value="109310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1960,7 +1959,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2742279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2742279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2052,14 +2051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
           <folding />
         </state>
       </provider>
@@ -2257,16 +2248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/domain/ConversionChart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -2417,16 +2398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/handler/ExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -2481,10 +2452,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/config/PersistenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/au/com/fx/converter/ui/console/FxConsoleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
