@@ -19,5 +19,5 @@ public interface FxConversionService {
      *
      * @return {@link BigDecimal} the converted amount.
      * */
-    BigDecimal convert(String baseCurrencyCode, String termCurrencyCode, Double amount);
+    BigDecimal convert(String baseCurrencyCode, String termCurrencyCode, BigDecimal amount);
 }

@@ -4,6 +4,9 @@ import au.com.fx.converter.domain.ConversionChart;
 import au.com.fx.converter.domain.ExchangeRate;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.math.BigDecimal;
+import java.math.MathContext;
+
 /**
  * This class will be responsible for Handling Conversion related to Direct Currencies Rate Calculations.
  *
@@ -18,9 +21,9 @@ public class DirectRateConversionHandlerImpl extends BaseRateConversionHandler {
     RateConversionHandler rateConversionHandler;
 
     @Override
-    public Double process(ConversionChart chart, Double currentRate) {
+    public BigDecimal process(ConversionChart chart, BigDecimal currentRate) {
 
         ExchangeRate exchangeRate = getExchangeRate(chart.getSourceCurrency(), chart.getDestinationCurrency());
-        return rateConversionHandler.process(null, currentRate * (exchangeRate).getRate().doubleValue());
+        return rateConversionHandler.process(null, currentRate.multiply((exchangeRate).getRate(), MathContext.DECIMAL128));
     }
 }

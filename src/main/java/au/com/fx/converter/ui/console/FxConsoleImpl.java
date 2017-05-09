@@ -69,7 +69,7 @@ public class FxConsoleImpl implements FxConsole {
         String result;
         try {
             String[] values = consoleInput.split("\\s+");
-            BigDecimal convertedRate = fxConversionService.convert(values[0], values[3], new Double(values[1]));
+            BigDecimal convertedRate = fxConversionService.convert(values[0], values[3], new BigDecimal(values[1]));
             result = String.format("%1s %2s = %3s %4s", values[0], values[1], values[3], convertedRate.toPlainString());
 
         } catch (RuntimeException e) {

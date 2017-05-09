@@ -19,11 +19,12 @@ class FxConversionIntegrationSpec extends BaseIntegrationSpec {
         fxConversionService.convert(baseCurrency, termCurrency, amountToConvert)?.toPlainString() == convertedAmount
 
         where :
-        baseCurrency | termCurrency | amountToConvert | convertedAmount | conversionType
-        'AUD'        | 'USD'        | 1D              | '0.83'          | 'Direct Conversion'
-        'USD'        | 'AUD'        | 1D              | '1.19'          | 'Inverse Conversion'
-        'AUD'        | 'USD'        | 1D              | '0.83'          | 'Cross Conversion'
-        'AUD'        | 'USD'        | 1D              | '0.83'          | 'Combined Conversion (Cross, Invert and Direct) with Invert and Direct'
-        'AUD'        | 'AUD'        | 100D            | '100.00'        | 'Unity Conversion'
+        baseCurrency | termCurrency | amountToConvert          | convertedAmount | conversionType
+        'AUD'        | 'USD'        | new BigDecimal(1)    | '0.84'          | 'Direct Conversion'
+        'USD'        | 'AUD'        | new BigDecimal(0.84) | '1.00'          | 'Inverse Conversion'
+        'AUD'        | 'JPY'        | new BigDecimal(1)    | '100'           | 'Combined Conversion (Cross and Direct)'
+        'JPY'        | 'AUD'        | new BigDecimal(100)  | '1.00'           | 'Combined Conversion (Cross and Direct)'
+        'JPY'        | 'NOK'        | new BigDecimal(1)    | '0.06'          | 'Combined Conversion (Cross, Invert and Direct) with Invert and Direct'
+        'AUD'        | 'AUD'        | new BigDecimal(100)  | '100.00'        | 'Unity Conversion'
     }
 }

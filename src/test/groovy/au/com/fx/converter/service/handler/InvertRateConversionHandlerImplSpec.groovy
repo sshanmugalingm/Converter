@@ -25,7 +25,7 @@ class InvertRateConversionHandlerImplSpec extends Specification {
     def "process, should calculate the Inverted Exchange Rate, when a valid Conversion Chart and Amount is passed"() {
 
         when :
-        Double convertedAmount = invertRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'USD'), destinationCurrency: new Currency(code: 'AUD')), 10D)
+        BigDecimal convertedAmount = invertRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'USD'), destinationCurrency: new Currency(code: 'AUD')), new BigDecimal(10))
 
         then :
         invertRateConversionHandler.exchangeRateRepository = Mock(ExchangeRateRepository) {
@@ -36,13 +36,13 @@ class InvertRateConversionHandlerImplSpec extends Specification {
 
         and :
         invertRateConversionHandler.rateConversionHandler = Mock(RateConversionHandlerImpl) {
-            1 * process(*_) >> {ConversionChart chart, Double amount ->
+            1 * process(*_) >> {ConversionChart chart, BigDecimal amount ->
                 return amount
             }
         }
 
         and :
-        convertedAmount.round(4) == new Double(11.946)
+        convertedAmount.setScale(2, BigDecimal.ROUND_HALF_UP) == new BigDecimal(11.946).setScale(2, BigDecimal.ROUND_HALF_UP)
     }
 
 

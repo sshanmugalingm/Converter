@@ -2,6 +2,8 @@ package au.com.fx.converter.service.handler;
 
 import au.com.fx.converter.domain.ConversionChart;
 
+import java.math.BigDecimal;
+
 /**
  * This will be responsible for transforming the rates based on different {@link au.com.fx.converter.commons.enums.ConversionType}
  * @author senthurshanmugalingm.
@@ -17,5 +19,5 @@ public interface RateConversionHandler {
      *
      * @return {@link Double} the converted rate.
      * */
-    Double process(ConversionChart chart, Double currentRate);
+    BigDecimal process(ConversionChart chart, BigDecimal currentRate);
 }

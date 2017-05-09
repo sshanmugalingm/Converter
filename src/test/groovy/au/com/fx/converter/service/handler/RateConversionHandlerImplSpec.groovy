@@ -23,19 +23,19 @@ class RateConversionHandlerImplSpec extends Specification {
 
     def "process, should return the data passed, when the Conversion Chart is null"() {
         expect :
-        rateConversionHandler.process(null, 100D) == 100D
+        rateConversionHandler.process(null, new BigDecimal(100)) == new BigDecimal(100)
     }
 
     def "process, should pass the processing to the relevant handler based on the Conversion Type, when a valid Conversion Chart and amount is passed"() {
         when :
-        rateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'USD'), conversionType: ConversionType.INVERSE), 100D)
+        rateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'USD'), conversionType: ConversionType.INVERSE), new BigDecimal(100))
 
         then :
         rateConversionHandler.rateConversionHandlerFactory = Spy(RateConversionHandlerFactory) {
             1* getConversionHandler(_) >> {ConversionType conversionType ->
                 return Mock(InvertRateConversionHandlerImpl) {
-                   1 * process(*_) >> {ConversionChart conversionChart, Double amount ->
-                       return 1D
+                   1 * process(*_) >> {ConversionChart conversionChart, BigDecimal amount ->
+                       return new BigDecimal(1)
                    }
                 }
             }

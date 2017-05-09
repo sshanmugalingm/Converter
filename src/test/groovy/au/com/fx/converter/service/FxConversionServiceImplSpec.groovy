@@ -105,16 +105,16 @@ class FxConversionServiceImplSpec extends Specification {
 
         and :
         fxConversionService.rateConversionHandler = Mock(RateConversionHandler) {
-            process(*_) >> {ConversionChart conversionChart, Double amount ->
-                return new Double(78.665865)
+            process(*_) >> {ConversionChart conversionChart, BigDecimal amount ->
+                return new BigDecimal(78.665865)
             }
         }
 
         when :
-        BigDecimal convertedRate = fxConversionService.convert('AUD', 'USD', 10D)
+        BigDecimal convertedRate = fxConversionService.convert('AUD', 'USD', new BigDecimal(10))
 
         then :
-        convertedRate.toPlainString() == '786.65'
+        convertedRate.toPlainString() == '786.66'
     }
 
     @Unroll
@@ -135,20 +135,20 @@ class FxConversionServiceImplSpec extends Specification {
 
         and :
         fxConversionService.rateConversionHandler = Mock(RateConversionHandler) {
-            process(*_) >> {ConversionChart conversionChart, Double amount ->
-                return new Double(1.1568856)
+            process(*_) >> {ConversionChart conversionChart, BigDecimal amount ->
+                return new BigDecimal(1.1568856)
             }
         }
 
         when :
-        BigDecimal convertedRate = fxConversionService.convert('AUD', termCurrencyCode, 1D)
+        BigDecimal convertedRate = fxConversionService.convert('AUD', termCurrencyCode, new BigDecimal(1D))
 
         then :
         convertedRate.toPlainString() == expectedResult
 
         where :
         termCurrencyCode | precision | expectedResult
-        'USD'            | 2         | '1.15'
+        'USD'            | 2         | '1.16'
         'JPY'            | 0         | '1'
     }
 

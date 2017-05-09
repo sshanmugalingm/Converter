@@ -31,7 +31,7 @@ class DirectRateConversionHandlerImplSpec extends Specification {
         }
 
         when :
-        directRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'USD')), 10D)
+        directRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'USD')), new BigDecimal(10))
 
         then :
         thrown(IllegalArgumentException)
@@ -40,7 +40,7 @@ class DirectRateConversionHandlerImplSpec extends Specification {
     def "process, should calculate the Direct Exchange Rate, when a valid Conversion Chart and Amount is passed"() {
 
         when :
-        Double convertedAmount = directRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'USD')), 10D)
+        BigDecimal convertedAmount = directRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'USD')), new BigDecimal(10))
 
         then :
         directRateConversionHandler.exchangeRateRepository = Mock(ExchangeRateRepository) {
@@ -51,13 +51,13 @@ class DirectRateConversionHandlerImplSpec extends Specification {
 
         and :
         directRateConversionHandler.rateConversionHandler = Mock(RateConversionHandlerImpl) {
-            1 * process(*_) >> {ConversionChart chart, Double amount ->
+            1 * process(*_) >> {ConversionChart chart, BigDecimal amount ->
                 return amount
             }
         }
 
         and :
-        convertedAmount.round(4) == new Double(10 * 0.8371)
+        convertedAmount.setScale(2, BigDecimal.ROUND_HALF_UP) == new BigDecimal(8.370999).setScale(2, BigDecimal.ROUND_HALF_UP)
     }
 
 

@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.Assert;
 
 import java.math.BigDecimal;
+import java.math.MathContext;
 
 /**
  * An implementation of {@link FxConversionService}.
@@ -28,7 +29,7 @@ public class FxConversionServiceImpl implements FxConversionService {
     RateConversionHandler rateConversionHandler;
 
     @Override
-    public BigDecimal convert(String baseCurrencyCode, String termCurrencyCode, Double amount) {
+    public BigDecimal convert(String baseCurrencyCode, String termCurrencyCode, BigDecimal amount) {
         Assert.notNull(baseCurrencyCode, "Base Currency Code cannot be null.");
         Assert.notNull(termCurrencyCode, "Term Currency Code cannot be null.");
         Assert.notNull(amount, "Conversion Amount cannot be null.");
@@ -36,7 +37,7 @@ public class FxConversionServiceImpl implements FxConversionService {
         Currency baseCurrency = getCurrency(baseCurrencyCode, "Unable to find Base Currency");
         Currency termCurrency = getCurrency(termCurrencyCode, "Unable to find Term Currency");
 
-        return new BigDecimal(amount * getExchangeRate(baseCurrency, termCurrency)).setScale(termCurrency.getDecimalPlaces(), BigDecimal.ROUND_FLOOR);
+        return (amount.multiply(getExchangeRate(baseCurrency, termCurrency),MathContext.DECIMAL128)).setScale(termCurrency.getDecimalPlaces(), BigDecimal.ROUND_HALF_UP);
     }
 
     private Currency getCurrency(String currencyCode, String message) {
@@ -46,9 +47,9 @@ public class FxConversionServiceImpl implements FxConversionService {
         return baseCurrency;
     }
 
-    private Double getExchangeRate(Currency baseCurrency, Currency termCurrency) {
+    private BigDecimal getExchangeRate(Currency baseCurrency, Currency termCurrency) {
         ConversionChart chart = getConversionChart(baseCurrency, termCurrency);
-        return rateConversionHandler.process(chart, 1D);
+        return rateConversionHandler.process(chart, new BigDecimal(1));
     }
 
     private ConversionChart getConversionChart(Currency baseCurrency, Currency termCurrency) {

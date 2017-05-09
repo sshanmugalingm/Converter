@@ -22,16 +22,16 @@ class UnityRateConversionHandlerImplSpec extends Specification {
 
     def "process, should calculate the Unity Exchange Rate, when a valid Conversion chart and amount is passed"() {
         when :
-        Double calculatedRate = unityRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'AUD')), 100D)
+        BigDecimal calculatedRate = unityRateConversionHandler.process(new ConversionChart(sourceCurrency: new Currency(code: 'AUD'), destinationCurrency: new Currency(code: 'AUD')), new BigDecimal(100))
 
         then :
         unityRateConversionHandler.rateConversionHandler = Mock(RateConversionHandlerImpl) {
-            1 * process(*_) >> {ConversionChart chart, Double amount ->
+            1 * process(*_) >> {ConversionChart chart, BigDecimal amount ->
                 return amount
             }
         }
 
         and :
-        calculatedRate == new Double(100)
+        calculatedRate == new BigDecimal(100)
     }
 }

@@ -35,12 +35,12 @@ class CrossRateConversionHandlerImplSpec extends Specification {
 
         and :
         crossRateConversionHandler.rateConversionHandler = Mock(RateConversionHandlerImpl) {
-            2 * process(*_) >> {ConversionChart chart, Double amount ->
-                return chart.destinationCurrency.code == 'USD' ? new Double(0.0083) : new Double(10)
+            2 * process(*_) >> {ConversionChart chart, BigDecimal amount ->
+                return chart.destinationCurrency.code == 'USD' ? new BigDecimal(0.0083) : new BigDecimal(10)
             }
         }
 
         and :
-        calculatedRate == new Double(10)
+        calculatedRate == new BigDecimal(10)
     }
 }
